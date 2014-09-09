@@ -9,7 +9,14 @@ Watch out for URL when debugging.
 
 Ensure additional InheritDebugClassPathTestResponder configured for debug url to debug.
 
+Remote Debugging
 
+!define COMMAND_PATTERN {java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=1044 -cp %p %m}
+!define REMOTE_DEBUG_COMMAND {java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000 -cp %p %m}
+
+?responder=test&remote_debug=true
+
+                                   
 Add following in Wiki 
 * SampleTest 
 

@@ -24,14 +24,13 @@
 		<dependency>
 			<groupId>org.fitnesse</groupId>
 			<artifactId>fitnesse</artifactId>
-			<version>20080812</version>
-			<!-- <version>20140901</version>  -->
+			<version>20140901</version>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.fitnesse</groupId>
 			<artifactId>fitlibrary</artifactId>
 			<version>20080812</version>
-		</dependency>
+		</dependency> -->
 	</dependencies>
 
 	<build>

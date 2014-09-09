@@ -1,21 +1,19 @@
-1) Execute the project with fitnesse.FitNesse.
-2) Modify the classpath..
-	classpath: C:\Mohan\Tools\Repo\org\fitnesse\fitnesse\20080812\fitnesse-20080812.jar
-	classpath: C:\Mohan\Tools\Repo\org\fitnesse\fitlibrary\20080812\fitnesse-20080812.jar
-	classpath: target\classes
+Execute the project with fitnesse.FitNesse.
+
+Modify the classpath..
+	!path C:\Mohan\Tools\Repo\org\fitnesse\fitnesse\20140901\fitnesse-20140901.jar
+	!path C:\Users\mohan\git\SampleFitNesse\target\classes
 	
-1) Watch our for URL when debugging.
-http://192.168.1.103/DynaClasspathCalculatorTest?debug	
+Watch out for URL when debugging.
+	http://192.168.1.103/DynaClasspathCalculatorTest?debug	
 
-2) Ensure additional InheritDebugClassPathTestResponder configured for debug url to debug.
+Ensure additional InheritDebugClassPathTestResponder configured for debug url to debug.
 
 
-Add following in Wiki
- 
+Add following in Wiki 
 * SampleTest 
 
 And click the above link, and add following
-
 
 !|com.nikias.SampleFitNesse.CalculatorFixture|
 |first|second|sum?|product?|

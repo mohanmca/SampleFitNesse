@@ -1,3 +1,4 @@
+package com.nikias.SampleFitNesse.obsolete;
 //package com.nikias.SampleFitNesse;
 //
 //import fitnesse.ComponentFactory;

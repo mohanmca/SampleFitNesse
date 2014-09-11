@@ -1,4 +1,4 @@
-package com.nikias.SampleFitNesse;
+package com.nikias.SampleFitNesse.obsolete;
 
 /**
  * Hello world!

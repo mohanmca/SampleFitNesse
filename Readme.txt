@@ -1,7 +1,7 @@
 For older versions - Execute the project with fitnesse.FitNesse.
 For newer versions -  fitnesseMain.FitNesseMain
 Argruments..
-	-v  -l C:\Users\mohan\git\SampleFitNesse\log\ -d C:\Users\mohan\git\SampleFitNesse\
+	-v  -l C:\Log\Users\mohan\git\SampleFitNesse\log\ -d C:\Log\Users\mohan\git\SampleFitNesse\
 
 Modify the classpath..
 	!path C:\Mohan\Tools\Repo\org\fitnesse\fitnesse\20140901\fitnesse-20140901.jar

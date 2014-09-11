@@ -1,6 +1,8 @@
 package com.nikias.SampleFitNesse;
 
-public class CalculatorFixture {
+import fit.ColumnFixture;
+
+public class CalculatorFixture extends ColumnFixture {
 	public int first;
 	public int second;
 

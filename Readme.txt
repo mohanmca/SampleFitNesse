@@ -1,3 +1,4 @@
+
 For older versions - Execute the project with fitnesse.FitNesse.
 For newer versions -  fitnesseMain.FitNesseMain
 Argruments..
@@ -110,3 +111,6 @@ _________________
 
 _________________
 
+
+
+https://www.simple-talk.com/dotnet/.net-tools/acceptance-testing-with-fitnesse-multiplicities-and-comparisons/

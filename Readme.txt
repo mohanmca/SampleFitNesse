@@ -2,11 +2,11 @@
 For older versions - Execute the project with fitnesse.FitNesse.
 For newer versions -  fitnesseMain.FitNesseMain
 Argruments..
-	-v  -l C:\Log\Users\mohan\git\SampleFitNesse\log\ -d C:\Log\Users\mohan\git\SampleFitNesse\
+	-v  -l C:\Log\Users\mohan\git\samplefitnesse\log\ -d C:\Log\Users\mohan\git\samplefitnesse\
 
 Modify the classpath..
 	!path C:\Mohan\Tools\Repo\org\fitnesse\fitnesse\20140901\fitnesse-20140901.jar
-	!path C:\Users\mohan\git\SampleFitNesse\target\classes
+	!path C:\Users\mohan\git\samplefitnesse\target\classes
 	
 
 Remote Debugging
@@ -21,7 +21,7 @@ Add following in Wiki
 
 And click the above link, and add following
 
-!|com.nikias.SampleFitNesse.CalculatorFixture|
+!|com.nikias.samplefitnesse.CalculatorFixture|
 |first|second|sum?|product?|
 |1|3|4|3|
 |2|4|6|8|
@@ -38,8 +38,8 @@ _________________
 
 
 !path C:\Mohan\Tools\Repo\org\fitnesse\fitnesse\20140901\fitnesse-20140901.jar
-!path C:\Users\mohan\git\SampleFitNesse\target\classes
-!path C:\Users\mohan\git\SampleFitNesse\target\test-classes
+!path C:\Users\mohan\git\samplefitnesse\target\classes
+!path C:\Users\mohan\git\samplefitnesse\target\test-classes
 
 Let us test the whole
 
@@ -61,13 +61,13 @@ _________________
 
 
 !path C:\Mohan\Tools\Repo\org\fitnesse\fitnesse\20140901\fitnesse-20140901.jar
-!path C:\Users\mohan\git\SampleFitNesse\target\classes
+!path C:\Users\mohan\git\samplefitnesse\target\classes
 !define REMOTE_DEBUG_COMMAND {java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000 -cp %p %m}
 
 
 !contents -R2 -g -p -f -h
 
-!|com.nikias.SampleFitNesse.CalculatorFixture|
+!|com.nikias.samplefitnesse.CalculatorFixture|
 |first|second|sum?|product?|
 |1|3|4|3|
 |2|4|6|8|
@@ -76,12 +76,12 @@ _________________
 _________________
 
 !path C:\Mohan\Tools\Repo\org\fitnesse\fitnesse\20140901\fitnesse-20140901.jar
-!path C:\Users\mohan\git\SampleFitNesse\target\classes
+!path C:\Users\mohan\git\samplefitnesse\target\classes
 !define TEST_SYSTEM {slim}
 !contents -R2 -g -p -f -h
 
 
-!|com.nikias.SampleFitNesse.TableFixtureTest|
+!|com.nikias.samplefitnesse.TableFixtureTest|
 |Item|Product code|Price|
 |Pragmatic Programmer|B978-0201616224|34.03|
 |Sony RDR-GX330|ERDR-GX330|94.80|
@@ -96,13 +96,13 @@ _________________
 
 
 !path C:\Mohan\Tools\Repo\org\fitnesse\fitnesse\20140901\fitnesse-20140901.jar
-!path C:\Users\mohan\git\SampleFitNesse\target\classes
+!path C:\Users\mohan\git\samplefitnesse\target\classes
 !define REMOTE_DEBUG_COMMAND {java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000 -cp %p %m}
 
 
 !contents -R2 -g -p -f -h
 
-!|com.nikias.SampleFitNesse.ActionFixtureTest|
+!|com.nikias.samplefitnesse.ActionFixtureTest|
 |start|ActionFixtureTest|
 |enter|firstPart|Hello|
 |enter|secondPart|World|
@@ -114,3 +114,7 @@ _________________
 
 
 https://www.simple-talk.com/dotnet/.net-tools/acceptance-testing-with-fitnesse-multiplicities-and-comparisons/
+
+
+
+C:\Mohan\apps\dbFit\dbfit-complete-3.1.0\lib

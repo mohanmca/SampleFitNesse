@@ -116,5 +116,31 @@ _________________
 https://www.simple-talk.com/dotnet/.net-tools/acceptance-testing-with-fitnesse-multiplicities-and-comparisons/
 
 
+_________________
+
+DBFIT.
+wget -N https://github.com/dbfit/dbfit/releases/download/v3.1.0/dbfit-complete-3.1.0.zip
 
 C:\Mohan\apps\dbFit\dbfit-complete-3.1.0\lib
+
+run org.hsqldb.DatabaseManager
+
+_______________
+
+Working wiki till connection failure
+
+!path C:/Mohan/Tools/Repo/org/hsqldb/hsqldb/2.3.2/*.jar
+!|dbfit.HSQLDBTest|
+!|dbfit.fixture.DatabaseEnvironment|hsqldb|
+
+|Connect|jdbc:hsqldb:hsql://localhost/xdb?user=test&password=test|
+!|Query| select 'test' as x from dual|
+|x|
+|test|
+!|Query| select 'test' as x from dual|
+|x|
+|test|
+!|Query| select 'test' as x from dual|
+|x|
+
+_______________

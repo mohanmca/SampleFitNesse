@@ -36,13 +36,6 @@
 			<artifactId>fitlibrary</artifactId>
 			<version>20080812</version>
 		</dependency>
-		<!-- <dependency> <groupId>net.sf.dbfit</groupId> <artifactId>dbfit</artifactId> 
-			<version>1.1.2.2</version> </dependency> -->
-		<dependency>
-			<groupId>com.neuri.dbfit</groupId>
-			<artifactId>mysql</artifactId>
-			<version>3.0.0</version>
-		</dependency>
 
 	</dependencies>
 

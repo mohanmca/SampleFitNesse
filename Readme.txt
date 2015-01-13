@@ -8,6 +8,7 @@ wget -N https://codeload.github.com/dbfit/dbfit/tar.gz/v3.1.0/dbfit-3.1.0.tar.gz
 
 For newer versions -  fitnesseMain.FitNesseMain
 Argruments..	-v  -l C:\Log\Users\mohan\git\samplefitnesse\log\ -d C:\Log\Users\mohan\git\samplefitnesse\
+Copy FitNesseRoot directory from the DbFit downloaded (and unzipped) folder in the root of the project.
 Use StartFitNesseDemo
 
 1) http://localhost/DbFit
